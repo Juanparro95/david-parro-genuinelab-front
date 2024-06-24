@@ -10,7 +10,7 @@
     --gradient-bg: linear-gradient(180deg, #d5e6f7 0%, #d5adfb 100%);
     --btn-bg-color: #133072;
     --btn-hover-color: #0b255a;
-    --font-family: 'Roboto', sans-serif;
+    --font-family: "Outfit", Sans-serif;
     --font-size-large: calc(1.5rem + 1vw);
 }
 
@@ -333,10 +333,15 @@ body {
         padding: 10px;
     }
 
-    .hero-text {
+    .hero-text, .hero-text>.gradient-bg {
         width: 100%;
         left: 0;
-        padding: 0 10px;
+        padding: 1.3rem !important;
+
+    }
+
+    .hero-text h3 {
+        font-size: 4vw;
     }
     
     .mission-card {
@@ -349,6 +354,7 @@ body {
     .hero-text-footer {
         position: static;
         transform: none;
+        margin-top: 0px !important;
     }
 
     .logo-mini {
