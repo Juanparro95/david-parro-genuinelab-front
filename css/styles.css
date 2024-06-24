@@ -357,9 +357,15 @@ body {
         margin-top: 0px !important;
     }
 
+    .logo-mini-menu {
+        display: block;
+        margin: 0 auto;
+    }
+
     .logo-mini {
         display: block;
         margin: 0 auto;
+        width: 35%;
     }
 
     .social-icon {
