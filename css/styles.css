@@ -181,6 +181,7 @@ body {
 
 .logo {
     width: 75%;
+    margin-right: 3rem;
 }
 
 .logo-mini {
@@ -359,7 +360,7 @@ body {
 
     .logo-mini-menu {
         display: block;
-        margin: 0 auto;
+        width: 22%;
     }
 
     .logo-mini {
